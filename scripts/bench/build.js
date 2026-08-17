@@ -106,6 +106,7 @@ async function buildReactBundles(reactPath = getDefaultReactPath(), skipBuild) {
     await executeCommand(
       `cd ${reactPath} && yarn && yarn build react/index,react-dom/index --type=UMD_PROD`
     );
+    console.log("hello world from Aymen");
   }
 }
 
